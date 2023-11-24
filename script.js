@@ -20,4 +20,8 @@ Promise.all(promises).then((values)=>{
 		 `;
 		output.appendChild(tr);
 	}
+	const total = document.createElement("tr");
+	total.innerHtml = `<td>Total</td>
+					 <td>3.0</td>`;
+	output.appendChild(total);
 })
