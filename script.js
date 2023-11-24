@@ -1,6 +1,7 @@
 //your JS code here. If required.
 const output = document.getElementById("output");
 const initialText = document.createElement("tr");
+initialText.setAttribute("id", "loading")
 initialText.innerHTML = `<td colspan="2">Loading...</td>`;
 output.appendChild(initialText);
 const promises = [];
